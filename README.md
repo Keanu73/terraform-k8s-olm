@@ -6,7 +6,7 @@ Installs Operator Lifecycle Manager (OLM) into a cluster. However, if the cluste
 and already has OLM installed then the module does not install anything. It can still be used to export
 the olm namespaces for use by downstream modules.
 
-## Supported cluster types:
+## Supported cluster types
 
 * ocp3
 * ocp4
