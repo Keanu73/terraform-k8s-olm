@@ -16,7 +16,8 @@ the olm namespaces for use by downstream modules.
 
 ```hcl-terraform
 module "dev_software_olm_release" {
-  source = "Keanu73/k8s-olm"
+  source = "Keanu73/olm/k8s"
+  version = "0.1.0"
 
   cluster_config_file      = "~/.kube/config"
   cluster_version          = "3.11"
@@ -28,7 +29,8 @@ Another example
 
 ```hcl-terraform
 module "dev_software_olm_release" {
-  source = "Keanu73/k8s-olm"
+  source = "Keanu73/olm/k8s"
+  version = "0.1.0"
 
   cluster_config_file      = module.dev_cluster.config_file_path
   cluster_version          = module.dev_cluster.version
