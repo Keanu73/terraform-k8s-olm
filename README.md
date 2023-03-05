@@ -15,7 +15,7 @@ the olm namespaces for use by downstream modules.
 ## Example usage
 
 ```hcl-terraform
-module "dev_software_olm_release" {
+module "olm" {
   source = "Keanu73/olm/k8s"
   version = "0.1.0"
 
@@ -28,7 +28,7 @@ module "dev_software_olm_release" {
 Another example
 
 ```hcl-terraform
-module "dev_software_olm_release" {
+module "olm" {
   source = "Keanu73/olm/k8s"
   version = "0.1.0"
 
